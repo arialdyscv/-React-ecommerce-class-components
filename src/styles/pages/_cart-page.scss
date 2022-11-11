@@ -1,0 +1,148 @@
+.cart-page-container {
+  margin-top: 6rem;
+  justify-content: start;
+  font-family: "Raleway";
+  margin: $medium-margin;
+}
+
+.page-tittle {
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 60px;
+  padding-bottom: 55px;
+  width: 100%;
+}
+
+.cart-products-container {
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-product-container {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #e5e5e5;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+}
+
+.cart-product-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-product-brand {
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+.cart-product-name {
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+.cart-product-price {
+  font-size: 1rem;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+.cart-attributes {
+  align-items: center;
+  padding-bottom: 0.5rem;
+}
+.cart-attributes-tittle {
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding-bottom: 0.3rem;
+}
+
+.cart-product-attributes {
+  background: black;
+  color: white;
+  max-width: fit-content;
+  padding: 0.3rem;
+}
+
+.cart-product-swatch {
+  max-width: fit-content;
+  padding: 0.5rem;
+  border: solid 2px $green-brand;
+}
+
+.cart-product-quantity {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.cart-right-side {
+  display: flex;
+}
+.cart-product-image {
+  padding-left: 0.5rem;
+  button {
+    background: rgb(0, 0, 0, 0.8);
+    border: none;
+    padding: 0.3rem;
+    img {
+      filter: invert(100%);
+      width: 0.7rem;
+    }
+  }
+  button:hover {
+    cursor: pointer;
+  }
+}
+.cart-image {
+  max-width: 200px;
+}
+.right-btn {
+  position: relative;
+  right: 2rem;
+  transform: rotate(-90deg);
+}
+.left-btn {
+  transform: rotate(90deg);
+  position: relative;
+  left: 10rem;
+}
+
+.cart-total {
+  padding-top: 1.5rem;
+  p {
+    padding: 0.3rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+  span {
+    font-weight: 700;
+  }
+}
+.cart-page-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clear-btn {
+  background: white;
+  border: 1px solid;
+  padding: 1rem;
+  margin-right: 3rem;
+  font-size: 1rem;
+}
+.clear-btn:hover {
+  cursor: pointer;
+  background: red;
+  color: white;
+}
+.go-back {
+  word-break: break-all;
+  text-align: center;
+  font-size: x-large;
+  font-weight: 500;
+  padding: 5rem;
+  border-bottom: 1px solid #e5e5e5;
+}

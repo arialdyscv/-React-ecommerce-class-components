@@ -1,0 +1,87 @@
+.nav-container {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+  height: 60px;
+  color: $black-brand;
+  font-family: "Raleway";
+  width: 100%;
+  position: fixed;
+  top: 0;
+  @media (max-width: 45rem) {
+    padding: 1.75rem 3rem;
+    width: 50vw;
+  }
+  z-index: 10;
+}
+.categories {
+  min-width: 14rem;
+  margin-right: $small;
+}
+.nav-link {
+  border-bottom: transparent solid 2px;
+  padding: 0 1rem 2rem 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1rem;
+  color: $black-brand;
+}
+
+.nav-link:hover {
+  border-bottom: $green-brand solid 2px;
+  color: $green-brand;
+}
+
+.nav-link-active {
+  border-bottom: $green-brand solid 2px;
+  color: $green-brand;
+  padding: 0 1rem 2rem 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+.middle-nav {
+  margin: 0 0.5rem;
+}
+
+//left side navigationBar
+
+.left-nav {
+  display: flex;
+  font-size: 1.3rem;
+  margin-left: $small;
+  min-width: 4rem;
+}
+
+.currency-list {
+  background-color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.currency {
+  padding-right: 0.3rem;
+}
+
+.arrow {
+  position: relative;
+  bottom: 0.2rem;
+  padding-right: 1rem;
+}
+
+[badge]::after {
+  background: black;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 20px;
+  content: attr(badge);
+  min-width: 20px;
+  min-height: 20px;
+  position: absolute;
+  text-align: center;
+  margin-top: -10px;
+  margin-left: -10px;
+}

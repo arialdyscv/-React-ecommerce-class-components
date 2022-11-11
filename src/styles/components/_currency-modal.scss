@@ -1,0 +1,11 @@
+.modal {
+    background-color: white;
+    z-index: 1;
+    box-shadow: 1px 1px 25px 3px rgba(150,150,150,0.1);
+    font-size: 1rem;
+    flex-grow: 0;
+    position: fixed;
+    right: 5rem;
+    height: fit-content;
+    margin-top: 0.5rem;
+}
