@@ -145,13 +145,6 @@ class CartModal extends PureComponent {
                             />
                           </div>
                         </div>
-                        <div className="total-price">
-                          <p>Total</p>
-                          <p>
-                            {currencySymbol}
-                            {cartTotalAmount}
-                          </p>{" "}
-                        </div>
                       </Fragment>
                     );
                   })
@@ -160,6 +153,13 @@ class CartModal extends PureComponent {
                     <p>Cart is empty...</p>
                   </div>
                 )}
+                <div className="total-price">
+                  <p>Total</p>
+                  <p>
+                    {currencySymbol}
+                    {cartTotalAmount}
+                  </p>{" "}
+                </div>
               </div>
 
               <footer className="modal-footer">
