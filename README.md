@@ -38,7 +38,7 @@ This eCommerce project maps the provided endpoint (https://github.com/scandiweb/
 
 **NOTE: This project was made without any UI libraries
 
-Project can be run as follow
+**Project must have provided endpoint running.
 
 ### npm install
 
