@@ -1,4 +1,4 @@
-import React, { PureComponent, Fragment, useEffect } from "react";
+import React, { PureComponent, Fragment } from "react";
 import { connect } from "react-redux";
 import { ReactComponent as CartIcon } from "../../icons/empty-cart-icon.svg";
 import {
