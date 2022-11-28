@@ -1,6 +1,6 @@
 # React E-commerce with Class Components  
 
-This project maps the provided endpoint (https://github.com/scandiweb/junior-react-endpoint)
+This eCommerce project maps the provided endpoint (https://github.com/scandiweb/junior-react-endpoint)
 
 
 ## This project includes
@@ -38,7 +38,7 @@ This project maps the provided endpoint (https://github.com/scandiweb/junior-rea
 
 **NOTE: This project was made without any UI libraries
 
-Project can be run as follow
+**Project must have provided endpoint running.
 
 ### npm install
 
